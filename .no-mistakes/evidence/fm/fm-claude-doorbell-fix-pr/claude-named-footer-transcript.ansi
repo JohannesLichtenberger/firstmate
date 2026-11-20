@@ -1,0 +1,40 @@
+❯ This second isolated delivery is deliberately longer than one terminal row and proves input still reaches Claude
+  after a fresh launch. Reply with exactly FMLAB_SECOND_DELIVERED and nothing else.
+  
+● FMLAB_SECOND_DELIVERED
+
+✻ Crunched for 1s · done 10:22 PM
+
+❯ /context
+  ⎿  Context usage
+     ⛀ ⛀ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶   Opus 5.5
+     ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶   claude-opus-5-5
+     ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶   1.5k/1m tokens (0.2%)
+     ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶
+     ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶   Estimated usage by category
+     ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶   ⛁ System prompt: 36 tokens (<0.1%)
+     ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶   ⛁ Messages: 1.5k tokens (0.1%)
+     ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶   ⛶ Free space: 965.5k tokens (97%)
+     ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶   ⛝ Autocompact buffer: 33k tokens (3%)
+     ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛶ ⛝ ⛝ ⛝ ⛝ ⛝ ⛝ ⛝
+
+     Auto-compact window:  1m tokens
+
+❯ /rename Lab title
+  ⎿  Session renamed to: Lab title
+
+❯ Reply with a four-line code block: first line Transcript example; second line 100 Unicode horizontal bars U+2500;
+  third line ❯ old prompt; fourth line response text.
+
+● Transcript example
+  ────────────────────────────────────────────────────────────────────────────────────────────────────
+  ❯ old prompt
+  response text
+
+✻ Brewed for 2s · done 10:24 PM
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────── Lab title ─
+❯ 
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  → repo git:(main)
+  ⏵⏵ auto mode on (shift+tab to cycle)

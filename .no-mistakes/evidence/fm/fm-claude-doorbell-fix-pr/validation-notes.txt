@@ -1,0 +1,56 @@
+Target: fb4ad5f9a71b6e3020672c2695728e26a162b393
+Base: 427056c4181c41074ad24f051f79919330df0fa5
+Tools: Herdr 0.9.0; Claude Code 2.1.329; Linux.
+
+Executed TMPDIR=$PWD/.lab/tmp bash tests/fm-composer-lib.test.sh; exit 0.
+This is portable behavioral regression evidence, not live vendor proof.
+
+All live Herdr operations used bin/fm-herdr-lab.sh in fm-lab-doorbell.
+Writable Herdr configuration and helper state stayed inside .lab/. A local
+symlink exposed the default socket for the helper's read-only fleet tripwire.
+The default session was never driven or changed. Claude used disposable settings
+and the existing login in isolated configuration. No account, organization,
+credential-store, or usage-credit settings were changed.
+
+Fast mode was requested with inline fastMode=true settings, then with isolated
+user settings and the normal login's existing cached feature state. Claude
+rendered 'Fast mode requires usage credits' and a solid top rule. Thus no real
+fast-badge rendering, badge doorbell, or badge /exit result is established.
+An existing fast-mode-eligible Claude login with usage credits already enabled,
+or an account administrator enabling that capability, is needed to complete it.
+
+Actual standard-mode vendor checks:
+- Two long single-line inputs wrapped on a 119-column pane. send_text_submit
+  returned empty and Claude rendered both requested replies.
+- /context was pending with a marked popup, extraction was exactly /context,
+  submission returned empty, and the actual 'Context usage' report rendered.
+- The statusLine initially did not render with disableAllHooks=true. Removing
+  that isolated setting enabled the actual arrow-prefixed repo git:(main) footer.
+- /rename produced a real titled composer. A single-line wrapped prompt under
+  this titled composer returned empty and produced the requested transcript
+  containing a solid rule, an old prompt glyph, and response text.
+- With that earlier transcript and footer visible, current state=empty and
+  selected input was empty. The base classifier on the same freshly captured
+  live viewport returned pending and extracted 'old prompt response text'.
+- Typing /exit produced a marked popup; state=pending and selected input=/exit.
+  fm-send /exit reached the parser and agent get then returned agent_not_found.
+  fm-send itself returned 1/unknown after the agent disappeared, retained in
+  live-product-results.log. The tested exit postcondition is that the command
+  was proven and the agent exited, not that fm-send confirms an empty composer
+  after the process exited.
+- A deliberately multiline payload containing terminal rules and an embedded
+  prompt glyph was safely refused/cleared as send-failed. The ordinary
+  single-line wrapped prompt described above subsequently delivered successfully.
+
+Adversarial text was emitted by real Python processes in disposable Herdr panes;
+this is not vendor rendering evidence. The real backend captured each pane and
+refused foreign glyphs, width mismatch, blank and boxed continuations,
+unindented transcript rows, and stale envelopes: each returned unknown.
+Each adversarial workspace closed after its read. Driver exit 0.
+
+PNG artifacts render captured terminal text, not native GUI screenshots. This
+was a headless terminal lab; raw text and ANSI captures remain authoritative.
+
+Lab teardown returned 0 and the session list retained only the unchanged running
+default session. The interactive driver and baseline check exited. All .lab
+files, including isolated Claude configuration, were removed after teardown.

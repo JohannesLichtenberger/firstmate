@@ -1,0 +1,28 @@
+delivery. Reply exactly as requested; do not use tools.' --tools '' --strict-mcp-config --mcp-config '{"mcpServers":{}}
+'
+ ▐▛███▛█   Claude Code v2.1.329
+▝▜██████▀  Opus 5.5 · Claude Ultra
+ ▝▝   ▝▝   ~/.no-mistakes/worktrees/9c4a5d176644/01M7XC564S9AAGT4AA0CDDM2ZY
+
+  Fable 5.2 is here for your longest and toughest coding tasks. It draws down usage faster than Opus 5.5. Switch with
+  /model.
+
+❯ This is an isolated terminal-delivery check with a deliberately long input that must wrap over multiple composer
+  rows at the current pane width. Reply with exactly FMLAB_WRAPPED_DELIVERED and nothing else.
+
+● FMLAB_WRAPPED_DELIVERED
+
+✻ Cogitated for 1s · done 10:20 PM
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+❯ /context
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  ❯ /context                    Show what fills the context
+    /doctor                     Health-check your setup and fix issues: installation, unused extensions, duplicated
+                                or bloated memory files, slow hooks, updates, permissions
+    /autocompact                Set how full the context gets before auto-summarizing
+    /subtask                    Send a subagent off with your full context; its result comes back here
+    /clear                      Start a new session with empty context; loops carry over, and the old one stays in
+                                /resume
+    /compact                    Free up context by summarizing the conversation so far
+    /skill-doctor               Show which loaded skills are unused and costing context

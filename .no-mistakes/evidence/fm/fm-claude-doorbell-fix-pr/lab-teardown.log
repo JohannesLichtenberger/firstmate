@@ -1,0 +1,2 @@
+lab teardown exit=0
+{"sessions":[{"default":true,"name":"default","running":true,"session_dir":".lab/c/herdr","socket_path":".lab/c/herdr/herdr.sock"}]}

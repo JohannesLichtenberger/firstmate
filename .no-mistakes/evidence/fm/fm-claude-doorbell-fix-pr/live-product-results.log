@@ -1,0 +1,20 @@
+mode=standard (fast mode refused by account)
+initial=empty
+wrapped-submit=empty
+statusline context submit=empty
+fm-gate-refuse: gate agent lifecycle permitted only against lab home {run-worktree}/.lab/home
+fm-send rename exit=0
+named-footer wrapped submit=send-failed
+named-footer after earlier transcript state=empty
+named-footer single-line wrapped submit=empty
+named footer with earlier solid transcript state=empty
+selected input=
+base-commit same live viewport state=pending
+base-commit selected input=old prompt response text
+named footer exit popup state=pending
+named footer exit popup selected input=/exit
+fm-gate-refuse: gate agent lifecycle permitted only against lab home {run-worktree}/.lab/home
+error: text not submitted to fm-lab-doorbell:w1:p1 (delivery unconfirmed; verdict=unknown; tried meta={run-worktree}/.lab/home/state/fm-lab-doorbell:w1:p1.meta; metadata window/terminal lookup; backend=herdr; endpoint=verified)
+fm-send named exit status=1
+{"error":{"code":"agent_not_found","message":"agent target w1:p1 not found"},"id":"cli:agent:get"}
+agent get after exit status=1

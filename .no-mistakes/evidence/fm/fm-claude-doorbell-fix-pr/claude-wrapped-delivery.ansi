@@ -1,0 +1,38 @@
+[0m[1m[38;5;2mjohannes@luna[0m:[0m[1m[38;5;4m~/.no-mistakes/worktrees/9c4a5d176644/01M7XC564S9AAGT4AA0CDDM2ZY[0m$ env -u FM_ROOT_OVERRIDE -u FM_STATE_OVE
+RRIDE -u FM_DATA_OVERRIDE -u FM_CONFIG_OVERRIDE -u FM_PROJECTS_OVERRIDE CLAUDE_CONFIG_DIR='~/.no-mistakes/
+worktrees/9c4a5d176644/01M7XC564S9AAGT4AA0CDDM2ZY/.lab/claude' CLAUDE_CODE_ENABLE_PROMPT_SUGGESTION=false CLAUDE_CODE_S
+END_FEEDBACK=0 DISABLE_AUTOUPDATER=1 claude --setting-sources '' --settings '{worktrees}
+5d176644/01M7XC564S9AAGT4AA0CDDM2ZY/.lab/claude-settings.json' --system-prompt 'You are testing terminal input delivery
+. Reply exactly as requested; do not use tools.' --tools '' --strict-mcp-config --mcp-config '{}'
+Error: Invalid MCP configuration:
+mcpServers: Invalid input: expected record, received undefined
+[0m[1m[38;5;2mjohannes@luna[0m:[0m[1m[38;5;4m~/.no-mistakes/worktrees/9c4a5d176644/01M7XC564S9AAGT4AA0CDDM2ZY[0m$ CLAUDE_CONFIG_DIR='~/.no-m
+istakes/worktrees/9c4a5d176644/01M7XC564S9AAGT4AA0CDDM2ZY/.lab/claude' CLAUDE_CODE_ENABLE_PROMPT_SUGGESTION=false CLAUD
+E_CODE_SEND_FEEDBACK=0 DISABLE_AUTOUPDATER=1 claude --setting-sources '' --settings '~/.no-mistakes/worktr
+ees/9c4a5d176644/01M7XC564S9AAGT4AA0CDDM2ZY/.lab/claude-settings.json' --system-prompt 'You are testing terminal input 
+delivery. Reply exactly as requested; do not use tools.' --tools '' --strict-mcp-config --mcp-config '{"mcpServers":{}}
+'
+[0m[1m[38;5;2mjohannes@luna[0m:[0m[1m[38;5;4m~/.no-mistakes/worktrees/9c4a5d176644/01M7XC564S9AAGT4AA0CDDM2ZY[0m$ CLAUDE_CONFIG_DIR='~/.no-m
+istakes/worktrees/9c4a5d176644/01M7XC564S9AAGT4AA0CDDM2ZY/.lab/claude' CLAUDE_CODE_ENABLE_PROMPT_SUGGESTION=false CLAUD
+E_CODE_SEND_FEEDBACK=0 DISABLE_AUTOUPDATER=1 claude --setting-sources '' --settings '~/.no-mistakes/worktr
+ees/9c4a5d176644/01M7XC564S9AAGT4AA0CDDM2ZY/.lab/claude-settings.json' --system-prompt 'You are testing terminal input 
+delivery. Reply exactly as requested; do not use tools.' --tools '' --strict-mcp-config --mcp-config '{"mcpServers":{}}
+'
+ ▐▛███▛█   Claude Code v2.1.329
+▝▜██████▀  Opus 5.5 · Claude Ultra
+ ▝▝   ▝▝   ~/.no-mistakes/worktrees/9c4a5d176644/01M7XC564S9AAGT4AA0CDDM2ZY
+
+  Fable 5.2 is here for your longest and toughest coding tasks. It draws down usage faster than Opus 5.5. Switch with
+  /model.
+
+❯ This is an isolated terminal-delivery check with a deliberately long input that must wrap over multiple composer
+  rows at the current pane width. Reply with exactly FMLAB_WRAPPED_DELIVERED and nothing else.
+  
+● FMLAB_WRAPPED_DELIVERED
+
+✻ Cogitated for 1s · done 10:20 PM
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+❯ 
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  ⏵⏵ auto mode on (shift+tab to cycle)

@@ -1,0 +1,7 @@
+foreign-glyph: composer=unknown; expected=unknown
+width-mismatch: composer=unknown; expected=unknown
+blank-continuation: composer=unknown; expected=unknown
+boxed-continuation: composer=unknown; expected=unknown
+unindented-transcript: composer=unknown; expected=unknown
+stale-envelope: composer=unknown; expected=unknown
+adversarial driver exit=0
